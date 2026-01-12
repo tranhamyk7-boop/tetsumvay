@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Báo Tường Ngày Tết - Lớp 12</title>
+
+    <style>
+        body {
+            font-family: "Times New Roman", serif;
+            background: linear-gradient(#fff3e0, #ffe0b2);
+            margin: 0;
+            padding: 0;
+        }
+
+        .baotuong {
+            width: 80%;
+            margin: 30px auto;
+            background-color: #fffaf0;
+            border: 5px solid #c62828;
+            padding: 20px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            text-align: center;
+            color: #b71c1c;
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #d84315;
+            font-style: italic;
+            margin-top: 0;
+        }
+
+        .thongtin {
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .noidung {
+            font-size: 20px;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        .khung {
+            border: 2px dashed #e65100;
+            padding: 15px;
+            margin: 20px 0;
+            background-color: #fffde7;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            font-style: italic;
+            color: #6d4c41;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="baotuong">
+        <h1>🌸 MÙA XUÂN YÊU THƯƠNG 🌸</h1>
+        <h2>Báo Tường Chào Xuân – Lớp 12</h2>
+
+        <div class="thongtin">
+            <p>Trường:THPT Nguyễn Trãi</p>
+            <p>Lớp: 12A1 | Năm học: 2025 – 2026</p>
+        </div>
+
+        <div class="khung">
+            <div class="noidung">
+                <p>
+                    Mỗi khi mùa xuân gõ cửa, đất trời như khoác lên mình một tấm áo mới rực rỡ sắc màu. Trong không khí se lạnh của những ngày cuối năm, hương hoa mai, hoa đào lan tỏa khắp phố phường, mang theo cảm giác ấm áp, bình yên đến lạ. Tết Nguyên Đán không chỉ là thời khắc chuyển giao giữa năm cũ và năm mới, mà còn là dịp để mỗi người con Việt Nam chậm lại giữa dòng chảy bận rộn của cuộc sống, để trở về bên gia đình, bên những yêu thương giản dị mà thiêng liêng.
+                </p>
+
+                <p>
+                    Đối với chúng em, mùa xuân này mang một ý nghĩa vô cùng đặc biệt. Đây có lẽ là cái Tết cuối cùng của tuổi học trò, là mùa xuân khép lại những năm tháng ngồi dưới mái trường thân yêu với biết bao kỷ niệm buồn vui. Trong tiếng trống trường vang vọng và những giờ học cuối cùng, chúng em dần cảm nhận rõ hơn sự trưởng thành của bản thân, cùng những ước mơ đang từng ngày hình thành cho chặng đường phía trước.
+                </p>
+
+                <p>
+                    Giữa không khí rộn ràng của ngày Tết, chúng em càng thêm trân trọng công ơn thầy cô – những người đã âm thầm dìu dắt, và gia đình – điểm tựa vững chắc trên hành trình khôn lớn. Mùa xuân không chỉ mang đến hy vọng cho một năm mới, mà còn nhắc nhở chúng em phải sống có trách nhiệm hơn với tương lai của chính mình. Xin gửi vào mùa xuân này những lời chúc tốt đẹp nhất, mong cho tất cả đều bình an, hạnh phúc và vững bước trên con đường đã chọn.
+                </p>
+            </div>
+        </div>
+
+        <div class="khung">
+            <h3>✨ Lời Chúc Năm Mới ✨</h3>
+            <p class="noidung">
+                Chúc năm mới an khang – thịnh vượng,<br>
+                Học tập tốt – thi cử thành công,<br>
+                Ước mơ vươn xa – tương lai rực sáng!
+            </p>
+        </div>
+
+        <div class="footer">
+            <p>— Kính chúc năm mới đong đầy —</p>
+        </div>
+    </div>
+    <img src="tet.jpg" alt="Hình ảnh ngày Tết" style="display:block; margin:20px auto;">
+
+    <div style="text-align:center; margin: 30px 0;">
+    <h3>🎵 Nhạc Xuân 🎵</h3>
+    <audio controls autoplay>
+        <source src="nhac_tet.mp3" type="audio/mpeg">
+    </audio>
+</div>
+<div class="khung" style="text-align:center;">
+    <h3>🧧 Rút Quẻ Đầu Xuân 🧧</h3>
+    <p>Nhấn nút để nhận một câu đối may mắn</p>
+
+    <button onclick="rutQue()" style="
+        font-size:20px;
+        padding:10px 25px;
+        background:#c62828;
+        color:white;
+        border:none;
+        border-radius:8px;
+        cursor:pointer;
+    ">
+        🎴 RÚT QUẺ
+    </button>
+</div>
+
+<script>
+function rutQue() {
+  const queLinks = [
+    {
+      ten: "Quẻ Đại Cát",
+      url: "https://tranhamyk7-boop.github.io/que-dai-cat/"
+    },
+    {
+      ten: "Quẻ Trung Cát",
+      url: "https://tranhamyk7-boop.github.io/que-trung-cat/"
+    },
+    {
+      ten: "Quẻ Tiểu Cát",
+      url: "https://tranhamyk7-boop.github.io/que-tieu-cat/"
+    }
+  ];
+
+  const q = queLinks[Math.floor(Math.random() * queLinks.length)];
+  window.open(q.url, "_blank");
+}
+</script>
+
+</body>
+</html>
